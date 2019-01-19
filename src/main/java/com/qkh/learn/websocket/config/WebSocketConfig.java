@@ -1,4 +1,4 @@
-package com.qkh.learn.socket.config;
+package com.qkh.learn.websocket.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
