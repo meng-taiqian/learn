@@ -9,7 +9,6 @@
     <input type="text" name="content" id="content"/>
     <button id="send" onclick="send()">Send</button>
     <button id="close" onclick="closeOne()">Close</button>
-    <button id="connect" onclick="connect()">Connect</button>
     <p id="message"></p>
 </div>
 </body>
@@ -53,10 +52,6 @@
 
     function showMsg(msg) {
         document.getElementById("message").innerHTML += msg + '<br/>';
-    }
-
-    function connect() {
-        webSocket.open;
     }
 
 </script>
