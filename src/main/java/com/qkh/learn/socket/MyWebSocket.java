@@ -18,7 +18,7 @@ public class MyWebSocket {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MyWebSocket.class);
 
-    public static int onlineCount = 0;
+    private static int onlineCount = 0;
 
     private static CopyOnWriteArraySet<MyWebSocket> webSockets = new CopyOnWriteArraySet<>();
 
